@@ -28,10 +28,11 @@ samples, guidance on mobile development, and a full API reference.
 2. clone repository: 
 git clone https://github.com/drfidel/Group14-FlutterApp.git
 
-3. Create Branch and checkout to your branch:
-git checkout -b fidelsBranch
+3. Create your Branch and checkout to your branch:
+eg. git checkout -b fidelsBranchListsExcercise
 
+4. Add and test out your feature/excercise
 
-3. Run/debug your application - in chrome/edge
+5. Run/debug your application - in chrome/edge
 
-4. Save your changes and commit
+6. Save your changes, commit and push your branch
