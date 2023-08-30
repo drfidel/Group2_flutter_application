@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:group_2_flutter_application/widget_CarDetail.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
@@ -19,17 +20,7 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text(
-              "car list",
-              style: Theme.of(context).textTheme.headlineMedium,
-            ),
-          ],
-        ),
-      ),
+      body: const Center(child: CarWidget()),
       floatingActionButton: FloatingActionButton(
         onPressed: _addCar,
         tooltip: 'Add Car',
