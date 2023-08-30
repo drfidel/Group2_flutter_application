@@ -1,4 +1,4 @@
-import 'package:car_app/CarWidget.dart';
+import 'package:group_2_flutter_application/CarWidget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,31 +13,13 @@ class Car extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text("Car App"),
-          centerTitle: true,
+          title: const Text("Car App"),
+          centerTitle: false,
         ),
-        // body: Column(
-        //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        //   children: [
-        //     CarWidget(
-        //       plateNumber: 'UAQ201',
-        //       color: 'Black',
-        //       engineNumber: 8,
-        //     )
-        //   ],
-        // ),
-        body: SizedBox(
-          height: MediaQuery.sizeOf(context).height,
-          width: MediaQuery.sizeOf(context).width,
-          child: Column(
-            children: [
-              CarWidget(
-                plateNumber: 'UAQ201',
-                color: 'Black',
-                engineNumber: 8,
-              )
-            ],
-          ),
+        body: const Column(
+          children: <Widget>[
+            CarWidget(),
+          ],
         ),
       ),
     );
