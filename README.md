@@ -17,7 +17,7 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Members
 1. Akiyo Fidel - group Leader
-2. 
+2. John Trevor
 3.
 4.
 5.
